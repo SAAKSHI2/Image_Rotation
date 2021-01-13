@@ -38,9 +38,9 @@ How to run this project :
 
 •	Include OpenCV to system path
 
-   o	Go to Advanced System Settings > Environment Variables >System Variables > Path.
+     o	Go to Advanced System Settings > Environment Variables >System Variables > Path.
    
-   o	Copy and paste the path of bin folder inside OpenCV package.
+     o	Copy and paste the path of bin folder inside OpenCV package.
    
 •	Open up Visual Studio. Create empty project and Add a new .cpp file inside the Source Files. This will open up the newly created cpp file in the editor. Write this code there.
 
@@ -48,14 +48,14 @@ How to run this project :
 
 •	Include OpenCV in visual studio.
 
-   o	Select debug environment to x64.
+      o	Select debug environment to x64.
    
-   o	Inside Properties of the project, then C/C++ > General. Copy the path to include folder of OpenCV and paste it inside Additional Include Directories. The path will      look similar to C:\opencv\build\include. Then, click Apply.
+     o	Inside Properties of the project, then C/C++ > General. Copy the path to include folder of OpenCV and paste it inside Additional Include Directories. The path will      look similar to C:\opencv\build\include. Then, click Apply.
 
-   o	Go to linker > General. Copy the path to folder containing OpenCV  lib files and paste it inside Additional Library Directories. The path will look similar to            C:\opencv\build\x64\vc14\lib. Then, click Apply.
+     o	Go to linker > General. Copy the path to folder containing OpenCV  lib files and paste it inside Additional Library Directories. The path will look similar to            C:\opencv\build\x64\vc14\lib. Then, click Apply.
    
-   o	Go to Input. Edit Additional Dependencies and paste the .lib file’s name. Choose the .lib file according to your configuration. For debug mode, the file ends with        ‘d’, e. g., opencv_world341d.lib.. Then, click Apply.
+     o	Go to Input. Edit Additional Dependencies and paste the .lib file’s name. Choose the .lib file according to your configuration. For debug mode, the file ends with        ‘d’, e. g., opencv_world341d.lib.. Then, click Apply.
    
-   o	Exit the Properties by clicking OK.
+     o	Exit the Properties by clicking OK.
    
 •	As you run the code it will ask you to enter the path of the image to be rotated ,the angle at which you want to rotate the image and the name you want to give to the window which will display the rotated image. As you enter these information an image rotated at a given angle will appear in a new window.
